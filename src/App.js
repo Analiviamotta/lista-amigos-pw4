@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Lista de amigos</p>
-        <form onSubmit={addFriend}>
+        <form onSubmit={addFriend} className="form-container">
           <label htmlFor="name">Nome: </label>
           <input
             type="text"
