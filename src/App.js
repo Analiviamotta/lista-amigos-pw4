@@ -36,6 +36,7 @@ function App() {
           <label htmlFor="name">Nome: </label>
           <input
             type="text"
+            value={friend.name}
             onChange={(e) => onChangeFriend("name", e.target.value)}
             required
           />
@@ -43,6 +44,7 @@ function App() {
           <label htmlFor="idade">Idade: </label>
           <input
             type="text"
+            value={friend.idade}
             onChange={(e) => onChangeFriend("idade", e.target.value)}
             required
           />
@@ -50,6 +52,7 @@ function App() {
           <label htmlFor="tel">Telefone: </label>
           <input
             type="tel"
+            value={friend.tel}
             onChange={(e) => onChangeFriend("tel", e.target.value)}
             required
           />
